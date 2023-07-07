@@ -2,8 +2,11 @@ import Nav from './components/Nav';
 
 function App() {
   return (
-    <div className=''>
-      <Nav />
+    <div className='app'>
+      <div className='front'>
+        <Nav />
+      </div>
+      <main className='relative z-10'></main>
     </div>
   );
 }
