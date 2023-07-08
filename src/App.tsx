@@ -1,3 +1,4 @@
+import Hero from './components/Hero';
 import Nav from './components/Nav';
 
 function App() {
@@ -5,6 +6,7 @@ function App() {
     <div className='app'>
       <div className='front'>
         <Nav />
+        <Hero />
       </div>
       <main className='relative z-10'></main>
     </div>

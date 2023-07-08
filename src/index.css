@@ -106,7 +106,7 @@ body {
   top: -25%;
   right: -35%;
   transform: translate(-50%, -50%);
-  background-image: url('./images/circle.svg');
+  background-image: url('./assets/images/circle.svg');
   background-size: cover;
   background-repeat: no-repeat;
   animation-name: spin;
@@ -135,4 +135,16 @@ main {
   top: 0;
   left: 0;
   background-color: #000;
+}
+
+/*hero*/
+.hero {
+  animation: moveInTop;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+}
+.hero__scroll {
+  position: absolute;
+  right: 8.3rem;
+  top: 70%;
 }
