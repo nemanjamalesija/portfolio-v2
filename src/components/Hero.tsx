@@ -21,7 +21,7 @@ const Hero = () => {
 
   return (
     <section
-      className='section hero h-screen w-full px-24 bg-black  leading-relaxed fixed top-36 left-0 z-10'
+      className='section hero w-full px-24 bg-black  leading-relaxed fixed top-36 left-0 z-10'
       ref={heroRef}
     >
       <h1

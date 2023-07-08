@@ -78,7 +78,7 @@ body {
   }
 }
 .heading-primary {
-  font-size: 10.2rem;
+  font-size: 9.2rem;
   line-height: 1.15;
   color: #f3f2ea;
 }
@@ -146,5 +146,5 @@ main {
 .hero__scroll {
   position: absolute;
   right: 8.3rem;
-  top: 70%;
+  top: 84%;
 }
