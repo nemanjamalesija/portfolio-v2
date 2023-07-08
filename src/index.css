@@ -115,10 +115,6 @@ body {
   animation-timing-function: linear;
 }
 
-main {
-  padding-top: 100vh;
-}
-
 /* NAVIGATION */
 .nav {
   display: grid;
@@ -137,7 +133,7 @@ main {
   background-color: #000;
 }
 
-/*hero*/
+/* HERO */
 .hero {
   animation: moveInTop;
   animation-duration: 1s;
@@ -147,4 +143,23 @@ main {
   position: absolute;
   right: 8.3rem;
   top: 84%;
+}
+
+main {
+  padding-top: 100vh;
+}
+
+/* ABOUT */
+
+.about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #f3f2ea;
+  gap: 10rem;
+  place-items: center;
+}
+.about__blockquote {
+  line-height: 1.8;
+  width: 80%;
+  font-size: 2.6rem;
 }
