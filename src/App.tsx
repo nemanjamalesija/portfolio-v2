@@ -1,3 +1,4 @@
+import About from './components/About';
 import Hero from './components/Hero';
 import Nav from './components/Nav';
 
@@ -8,7 +9,9 @@ function App() {
         <Nav />
         <Hero />
       </div>
-      <main className='relative z-10'></main>
+      <main className='relative z-10'>
+        <About />
+      </main>
     </div>
   );
 }
